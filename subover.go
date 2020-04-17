@@ -173,8 +173,6 @@ func main() {
     ParseArguments()
 
     fmt.Println("")
-    fmt.Println("SubOver v.1.2              Nizamul Rana (@Ice3man)")
-    fmt.Println("==================================================\n")
 
     if HostsList == "" {
         fmt.Printf("SubOver: No hosts list specified for testing!")
@@ -217,5 +215,4 @@ func main() {
     close(hosts)
     processGroup.Wait()
 
-    fmt.Printf("\n[~] Enjoy your hunt !\n")
 }
