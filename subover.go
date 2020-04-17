@@ -172,8 +172,6 @@ func Checker(target string) {
 func main() {
     ParseArguments()
 
-    fmt.Println("")
-
     if HostsList == "" {
         fmt.Printf("SubOver: No hosts list specified for testing!")
         fmt.Printf("\nUse -h for usage options\n")
